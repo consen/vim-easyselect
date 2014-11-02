@@ -1,7 +1,7 @@
 vim-EasySelect
 ==============
 
-When I first started using Vim, confused me is that I couldn't find a command or binding key to **select all**, like **Ctrl+A** in Windows. Now I am familiar to Vim, I know that I can use `ggVG` command in normal mode to **select all**, even I can select a large range of lines, like **Begin/End Select** in Notepad++, such as select lines from 10 to 10001, just enter `10GV10001G` in normal mode. But these commands may be annoying for a novice, so I think that I can create a plugin to simplify selection work.
+When I first started using Vim, confused me is that I couldn't find a command or binding key to **select all**, like **Ctrl+A** in Windows. Now I am familiar to Vim, I know that I can use `ggVG` command in normal mode to **select all**, even I can select a large range of lines, like **Begin/End Select** in Notepad++, such as select lines from 10 to 10001, just enter `10GV10001G` in normal mode. But these commands may be annoying for a novice, so I think that I can create a plugin to simplify the selection work.
 
 ## Installation
 
@@ -37,6 +37,8 @@ or
 ```
 :1, $Select
 ```
+
+For more info, see `:h easyselect`
 
 ## Configuration
 
